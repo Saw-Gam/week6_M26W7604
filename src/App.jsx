@@ -6,6 +6,7 @@ import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import Footer from "./components/Footer.jsx";
 import TailwindCssPractice from "./components/TailwindCssPractice.jsx";
+import Sawgam from "./components/Sawgam.jsx";
 
 // print the title of the app in an h1 tag
 function App() {
@@ -51,6 +52,7 @@ function App() {
         {/* call componnent  */}
         <TailwindCssPractice />
        <Footer />
+       <Sawgam/>
     </main>
   );
 }
